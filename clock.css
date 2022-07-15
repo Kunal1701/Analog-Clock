@@ -1,0 +1,38 @@
+.container {
+  height: 40vw;
+  width: 40vw;
+  margin: auto auto;
+  background: url(/img2.gif) no-repeat;
+  background-size: 100%;
+  position: relative;
+  top: 15%;
+}
+#hour,
+#min,
+#second {
+  position: absolute;
+  width: 1%;
+  height: 38%;
+  top: 9%;
+  left: 48.9%;
+  border-radius: 25px;
+  background-color: black;
+}
+#hour {
+  left: 49.5%;
+  height: 21%;
+  top: 28%;
+  transform-origin: bottom;
+}
+#min {
+  height: 27%;
+  top: 22%;
+  left: 49.5%;
+  transform-origin: bottom;
+}
+#second {
+  left: 49.5%;
+  height: 33%;
+  top: 16%;
+  transform-origin: bottom;
+}
