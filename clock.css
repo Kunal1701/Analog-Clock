@@ -36,3 +36,7 @@
   top: 16%;
   transform-origin: bottom;
 }
+a {
+  font-size: 130%;
+  font-weight: bolder;
+}
